@@ -1,0 +1,9 @@
+main:
+  handler: dist/lambda.handler
+  events:
+    - http:
+        method: ANY
+        path: /
+    - http:
+        method: ANY
+        path: '{proxy+}'
