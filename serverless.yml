@@ -1,0 +1,14 @@
+service: nest-serverless-fastify
+
+useDotenv: true
+
+plugins:
+  - serverless-plugin-optimize
+  - serverless-offline
+
+provider:
+  name: aws
+  runtime: nodejs18.x
+  environment: ${file(ymls/environment.yml)}
+
+functions: ${file(ymls/functions.yml)}
