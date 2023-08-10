@@ -1,7 +1,7 @@
 {
   "name": "nest-serverless-fastify",
   "version": "0.0.1",
-  "description": "Serverless API in Nestjs using Fastify documentation with swagger.",
+  "description": "Serverless API in Nestjs using Fastify, with swagger documentation.",
   "author": "Luiz Ricardo Santos",
   "private": false,
   "license": "UNLICENSED",
