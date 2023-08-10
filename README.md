@@ -25,9 +25,10 @@
     
 ## Description
 
-Serverless API in Nestjs using Fastify documentation with swagger.
+Serverless API in Nestjs using Fastify, with swagger documentation.
 
 # Libraries
+
 - NodeJS
 - Fastify
 - Swagger
@@ -35,7 +36,7 @@ Serverless API in Nestjs using Fastify documentation with swagger.
 - Serverless
 - aws-lambda-fastify
 - aws-lambda
-  
+
 ## Installation
 
 ```bash
@@ -54,6 +55,4 @@ $ npm run lambda:start:deploy
 
 ## Swagger
 
-`
-http://localhost:3000/dev/api/nest-serverless-fastify/docs
-`
+`http://localhost:3000/dev/api/nest-serverless-fastify/docs`
