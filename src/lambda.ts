@@ -27,7 +27,9 @@ let cachedNestApp: NestApp;
 function swaggerConfig() {
   const config = new DocumentBuilder()
     .setTitle('API nest-serverless-fastify')
-    .setDescription('Serviço serverless em nestjs utilizando fastify')
+    .setDescription(
+      'Serverless API in Nestjs using Fastify, with swagger documentation.',
+    )
     .setVersion('1.0')
     .build();
 
