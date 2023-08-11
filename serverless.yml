@@ -8,6 +8,7 @@ plugins:
 
 provider:
   name: aws
+  timeout: 600
   runtime: nodejs18.x
   environment: ${file(ymls/environment.yml)}
 
